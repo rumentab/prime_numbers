@@ -50,7 +50,7 @@ class Tests extends CI_Controller {
             
             $result = $this->unit->report();
             
-            $this->load->view('test_results_html', ['result' => $result, 'header' => $header, 'benchmark_data' => $this->benchmark_data]);
+            $this->load->view('test_results_html', ['result' => $result]);
         }
     }
 
