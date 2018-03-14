@@ -12,7 +12,14 @@
 ###How to install
 `$ composer create-project codeigniter/framework <folder>`
 
-Replace <folder> with an existing folder where the project will be created. If folder doesn&apos;t exist, it will be created. Then go to the **&lt;folder&gt;** and run
+Replace <folder> with an existing folder where the project will be created. If folder doesn&apos;t exist, it will be created. Then go to the **&lt;folder&gt;**.
+
+Clone the project
+
+`$ git clone https://github.com/rumentab/prime_numbers.git ./`
+
+Then run
+
 `$ composer update`
 
 ###How to run
